@@ -2,7 +2,7 @@ name: Static Analysis and Report
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types: [ opened, synchronize, reopened ]
   workflow_dispatch: { }
